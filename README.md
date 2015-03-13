@@ -5,8 +5,8 @@ sets of infinite dates.   Perfect for schedules, public holidays etc.
 Schedules and public holidays involve recuring dates.   D8Rules is a DSL to allow individual
 schedules or infinite date sets to be quickly defined.
 
-For example, all Thursdays could be defined as "Thu" and the 15th of the month as "**/**/15".   This
-then allows the sets to be easily combined: "Thu & **/**/15" yields an infinite set of Thursdays that
+For example, all Thursdays could be defined as "Thu" and the 15th of the month as "\*/\*/15".   This
+then allows the sets to be easily combined: "Thu & \*/\*/15" yields an infinite set of Thursdays that
 also fall on the 15th of the month.
 
 
